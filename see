@@ -1,0 +1,7 @@
+public static void func1(Animals animal) {
+    
+}
+public static void main2(String[] args) {
+    Dogs dog=new Dogs("see",10);
+    func1(dog);
+}
