@@ -1,0 +1,24 @@
+ int main()
+{
+     init ();
+    
+    while(1)
+    {
+       BeginBatchDraw();//double buffer mechanical start
+        
+       
+        updataBg();
+        
+        
+        //FlushBatshDraw
+       EndBatshDraw();//ouble buffer mechanical end
+        
+        fly();
+        
+        // add Frame waiting
+        Sleep(30);
+
+    }
+    return 0;
+}
+
