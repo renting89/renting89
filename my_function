@@ -1,0 +1,10 @@
+def my_function(*args):
+    for arg in args:
+        print(arg)
+
+my_function(1, 2, 3, 4, 5)
+
+for i in range(1, 10):
+    for j in range(1, i+1):
+        print(i, "*", j, "=", i*j, end="\t")
+    print()
